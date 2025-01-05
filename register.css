@@ -1,0 +1,60 @@
+
+body {
+    padding-top: 56px; 
+    background-image: url("peakpx.jpg"); 
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+.container{
+margin-top: 20px;
+
+}
+  .footer {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  text-align: center;
+}
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .nav-link {
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .jumbotron {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .section-content {
+    padding: 30px 0;
+  }
+
+  .feature-box {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    margin-bottom: 30px;
+  }

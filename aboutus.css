@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("peakpx.jpg");
+  }
+  
+  
+  
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+  
+  .display-4 {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .jumbotron {
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 40px;
+        border-radius: 10px;
+        text-align: center;
+      }
+      .navbar-brand {
+        font-weight: bold;
+        font-size: 24px;
+      }
+  
+      .nav-link {
+        color: #fff;
+        font-weight: bold;
+      }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Login</title>
+  <link rel="stylesheet" href="adminlogin.css">
+  
+</head>
+<body>
+
+<div class="container">
+  <h1>Admin Login</h1>
+  <form id="login-form">
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <input type="text" class="form-control" id="username" name="username" placeholder="Enter Username">
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" class="form-control" id="password" name="password" placeholder="Enter Password">
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+    
+  </form>
+  <a class="nav-link" href="homepage.html">Back</a>
+  <div id="admin-panel" style="display: none;">
+    <!-- Admin panel content-->
+  </div>
+</div>
+
+  <script>
+    const loginForm = document.getElementById('login-form');
+    const adminPanel = document.getElementById('admin-panel');
+
+    loginForm.addEventListener('submit', (event) => {
+      event.preventDefault(); // Prevent default form submission
+
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+
+      if (username === "NOKIBUL" && password === "10101010") {
+        adminPanel.style.display = "block";
+        // Redirect to the new page
+        window.location.href = "admin.html";
+      } else {
+        alert("Invalid username or password!");
+      }
+    });
+  </script>
+</body>
+</html>
